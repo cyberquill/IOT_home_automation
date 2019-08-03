@@ -10,7 +10,7 @@ db = firestore.client()
 doc_ref=db.collection(u'appliances').document(u'appliance1')
 
 while True:
-    myInput=string(input("Enter a value: "))
+    myInput=input("Enter a value: ")
     if myInput=="end":
         break
 
