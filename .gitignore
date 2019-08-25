@@ -1,4 +1,4 @@
 ServiceAccountKey.json
 .vscode
 /Adafruit_Python_DHT
-
+/__pycache__
