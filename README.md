@@ -9,7 +9,9 @@ ___
 
 ## Hardware Demo:
 
-[![IoT - Home Automation System](./Screenshots/preview.png)](http://www.youtube.com/watch?v=4xuGe6qDQIY "Home Automation System - Hardware Demo & Description")
+<a href="http://www.youtube.com/watch?v=4xuGe6qDQIY" title="Home Automation System - Hardware Demo & Description" target="_blank">
+    <img src="./Screenshots/preview.png" alt="Home Automation System - Hardware Demo & Description" />
+</a>
 
 ___
 
