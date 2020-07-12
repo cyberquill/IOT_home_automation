@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- regular -->
+    <font
+        android:font="@font/megrim"
+        android:fontStyle="normal"
+        android:fontWeight="900"
+
+        app:font="@font/megrim"
+        app:fontStyle="normal"
+        app:fontWeight="900" />
+
+    <!-- italic -->
+    <font
+        android:font="@font/megrim"
+        android:fontStyle="italic"
+        android:fontWeight="900"
+
+        app:font="@font/megrim"
+        app:fontStyle="italic"
+        app:fontWeight="900" />
+
+    <!-- bold -->
+    <font
+        android:font="@font/megrim"
+        android:fontStyle="normal"
+        android:fontWeight="900"
+
+        app:font="@font/megrim"
+        app:fontStyle="normal"
+        app:fontWeight="900" />
+</font-family>

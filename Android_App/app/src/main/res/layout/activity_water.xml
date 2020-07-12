@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    tools:context=".WaterActivity">
+
+
+    <TextView
+        android:id="@+id/nothing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Nothing's here"
+        android:textSize="50sp"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/mast1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/out_back"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:paddingBottom="30dp"
+        >
+
+        <TextView
+            android:id="@+id/water_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level: Loading..."
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+
+            />
+
+
+        <TextView
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/water_percentage"
+            android:layout_centerHorizontal="true"
+            android:text="Loading Status"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:visibility="visible"/>
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/mast2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress"
+            android:background="#eee"
+            android:layout_marginLeft="50dp"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:arc_stroke_width="30dp"
+            app:arc_bottom_text_size="25sp"
+            app:arc_progress="55"
+            app:arc_bottom_text="WATER"
+            app:arc_suffix_text_size="40sp"
+            app:arc_suffix_text_padding="-18dp"
+            app:arc_unfinished_color="#ffffff"
+            app:arc_finished_color="#00b1ff"
+            app:arc_text_color="#00b1ff"
+
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

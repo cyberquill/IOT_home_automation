@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical"
+    tools:context=".RoomActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="#333333"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorButton"
+                    >
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Humidity"
+                    android:backgroundTint="@color/colorButton"
+                    android:textAllCaps="true"/>
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/humidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Loading..."
+                    android:textSize="30dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="#333333"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/colorButton"
+                    android:layout_weight="1">
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Temprature"
+
+                    android:backgroundTint="@color/colorButton"
+                    android:textAllCaps="true"/>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/temprature"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Loading..."
+                    android:textSize="30dp"
+
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+
+
+            <com.airbnb.lottie.LottieAnimationView
+
+                android:id="@+id/bulb_animation"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                app:lottie_fileName="bulb.json"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                android:padding="20dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bulb"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:rippleColor="#FF3366"
+                android:backgroundTint="@color/colorButton"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+
+            android:id="@+id/fan_animation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            app:lottie_fileName="fan.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:padding="20dp"
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+
+            android:id="@+id/fan"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:rippleColor="#FF3366"
+            android:backgroundTint="@color/colorButton"
+            android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

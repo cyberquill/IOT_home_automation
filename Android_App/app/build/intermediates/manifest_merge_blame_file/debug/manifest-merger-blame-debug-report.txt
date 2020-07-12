@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.homeautomation"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:6:5-40
+12-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:26:5-67
+17-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:26:22-64
+18
+19    <application
+19-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:8:5-27:19
+20        android:allowBackup="true"
+20-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0-rc03] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c406305b0b57324ad3b98147ad7dfad5\core-1.1.0-rc03\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@drawable/ic_icon"
+24-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:10:9-41
+25        android:label="@string/app_name"
+25-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:11:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:12:9-54
+27        android:supportsRtl="true"
+27-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:13:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:14:9-40
+30        <activity android:name="com.example.homeautomation.SettingActivity" />
+30-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:15:9-62
+30-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:15:19-50
+31        <activity android:name="com.example.homeautomation.GeyserActivity" />
+31-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:16:9-52
+31-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:16:19-49
+32        <activity android:name="com.example.homeautomation.RoomActivity" />
+32-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:17:9-50
+32-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:17:19-47
+33        <activity android:name="com.example.homeautomation.WaterActivity" />
+33-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:18:9-51
+33-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:18:19-48
+34        <activity android:name="com.example.homeautomation.SplashActivity" >
+34-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:19:9-25:20
+34-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:19:19-49
+35            <intent-filter>
+35-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:20:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:21:17-69
+36-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:23:17-77
+38-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.homeautomation.MainActivity" />
+41-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:26:9-50
+41-->D:\Work\HomeAutomation_IoT\ClientAppication\app\src\main\AndroidManifest.xml:26:19-47
+42
+43        <service
+43-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:30:13-84
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:31:13-37
+46            <meta-data
+46-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:32:13-34:85
+47                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+47-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:33:17-109
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-database:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dbaf8ea46f84ea1c0d11e5a9f06b32d8\firebase-database-19.0.0\AndroidManifest.xml:34:17-82
+49        </service>
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\961ab0d27f059c60636ef3d501ab34dd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+55
+56        <provider
+56-->[com.google.firebase:firebase-common:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b5f33ddfb9e88463204e22178c0f434b\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+57            android:name="com.google.firebase.provider.FirebaseInitProvider"
+57-->[com.google.firebase:firebase-common:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b5f33ddfb9e88463204e22178c0f434b\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+58            android:authorities="com.example.homeautomation.firebaseinitprovider"
+58-->[com.google.firebase:firebase-common:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b5f33ddfb9e88463204e22178c0f434b\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+59            android:exported="false"
+59-->[com.google.firebase:firebase-common:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b5f33ddfb9e88463204e22178c0f434b\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+60            android:initOrder="100" />
+60-->[com.google.firebase:firebase-common:19.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b5f33ddfb9e88463204e22178c0f434b\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a8dd885207cddd00c4c27fdc1b9fa16b\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a8dd885207cddd00c4c27fdc1b9fa16b\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a8dd885207cddd00c4c27fdc1b9fa16b\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+65    </application>
+66
+67</manifest>
